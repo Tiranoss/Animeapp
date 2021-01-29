@@ -1,0 +1,44 @@
+Body {
+  background-image: url("./img/body-bg.gif");
+  background-position: center;
+  background-repeat: repeat;
+  padding: 0px;
+  margin: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  width: 100%;
+  /* min-height: 100vh; */
+  /* box-shadow: 0 0 20px; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 200px;
+}
+
+/*---------------------------Header---------------------------*/
+@import url("./components/header/header.css");
+/*--------------------------body------------------------------*/
+@import url("./components/body/auth/auth.css");
+/* --------------------- Profile ---------------------------- */
+@import url("./components/body/profile/profile.css");
+/* --------------------- Home Page ---------------------------*/
+@import url("./components/body/Home/home.css"); 
+/*----------------------add-card------------------------------*/
+@import url("./components/body/Cards/addCard.css"); 
